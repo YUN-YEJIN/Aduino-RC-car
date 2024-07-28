@@ -28,7 +28,7 @@ class CameraReadNode(Node):
         self.bottom_margin = bottom_margin
 
         self.cameras = ConnectedCameras()
-        self.cameras.add_camera_keyword("WN 5M Camera")  # 예시 키워드 추가
+        self.cameras.add_camera_keyword("XJS-CT48-3V93")  # 예시 키워드 추가
         self.right_cap, self.left_cap = self.cameras.try_initialize_cameras(width,height)
 
     def handle(self, svm):
