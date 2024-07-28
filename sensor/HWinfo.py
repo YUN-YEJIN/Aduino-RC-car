@@ -252,7 +252,7 @@ class SerialCommunicator:
 if __name__ == "__main__":
     # 사용 예
     cameras = ConnectedCameras()
-    cameras.add_camera_keyword("WN 5M Camera")  # 예시 키워드 추가
+    cameras.add_camera_keyword("XJS-CT48-3V93")  # 예시 키워드 추가
 
     print("Number of cameras found:", cameras.get_cameras_count())
     print("Camera names:", cameras.get_camera_names())
