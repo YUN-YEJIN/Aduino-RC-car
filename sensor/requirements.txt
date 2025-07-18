@@ -1,4 +1,0 @@
-opencv-python
-pyserial
-dlib
-numpy==1.26.4
