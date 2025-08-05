@@ -2,7 +2,7 @@
 
 1. RC 카와 컴퓨터 연결되었는지 체크하는 코드
 
-   ㄴONLY_command_abcde.ino
+   ㄴONLY_command_abcde.ino 를 통해 확인 가능
 2. 블루투스 모델
 3. IR 센서- 검정 선을 추적하여 스스로 길을 따라 주행한다.
  
